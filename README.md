@@ -11,7 +11,7 @@ Implementation of the paper "Synthetic Data Made to Order: The Case of Parsing" 
 
 ### Run 
 
-* To permute a source treebank `src.conllu` in UD format towards a target language with only POS-tags `tgt.txt` in POS-spaced format (see `data/fr.txt`,) and output to `src~tgt.conllu`:
+* To permute a source treebank `src.conllu` in UD format towards a target language with only POS-tags `tgt.txt` in POS-spaced format (see `data/fr.txt`) and output to `src~tgt.conllu`:
 
          python src/main.py --src src.conllu --tgt tgt.txt --output src~tgt.conllu
 
